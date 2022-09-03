@@ -76,6 +76,7 @@ function playRound(playerSelection, computerSelection) {
     //Catch errors
     else {
         console.log("Error!");
+        playRound(playerPlay(), computerPlay());
     }
     return playerScore, computerScore;
 }
